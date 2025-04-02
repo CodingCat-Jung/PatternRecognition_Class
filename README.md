@@ -1,0 +1,1 @@
+# 2025-1_Pattern_Recognition_Class
