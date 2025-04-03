@@ -9,7 +9,7 @@ Jupyter Notebook에서 OpenCV를 사용하려고 할 때 `cv2` 모듈을 찾지 
 ## 🐛 문제 상황
 
 Jupyter Notebook에서 `import cv2`를 실행하면 다음과 같은 오류가 발생:
-
+ModuleNotFoundError: No module named 'cv2'
 
 ---
 
