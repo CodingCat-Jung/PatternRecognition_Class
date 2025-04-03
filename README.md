@@ -25,15 +25,15 @@ ModuleNotFoundError: No module named 'cv2'
 ### 1. Conda 가상 환경 생성 및 활성화
 
 ```bash
-conda create -n test01 python=3.8 -y
+conda create -n test01 python=3.7 -y
 conda activate test01
 
 - 필요한 패키지 설치
 pip install opencv-python
 pip install jupyter
 
-- 가상환경을 Jupyter 커널로 등록
-python -m ipykernel install --user --name test01 --display-name "Python (test01)"
-
 - Jupyter Notebook 실행
 jupyter notebook
+
+- 가상환경을 Jupyter 커널로 등록
+python -m ipykernel install --user --name test01 --display-name "Python (test01)"
