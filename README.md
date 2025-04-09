@@ -22,7 +22,7 @@ ModuleNotFoundError: No module named 'cv2'
 
 ## ✅ 해결 방법
 
-### 1. Conda 가상 환경 생성 및 활성화
+### 1. Conda 가상 환경 생성 및 활성화 - Anaconda Prompt
 
 ```bash
 conda create -n test01 python=3.7 -y
