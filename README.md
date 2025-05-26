@@ -25,6 +25,7 @@ ModuleNotFoundError: No module named 'cv2'
 ### 1. Conda 가상 환경 생성 및 활성화 - Anaconda Prompt
 
 ```bash
+- 가상 환경 생성 
 conda create -n test01 python=3.7 -y
 
 - 가상 환경 활성화 명령어
