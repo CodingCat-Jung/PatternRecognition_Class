@@ -26,6 +26,8 @@ ModuleNotFoundError: No module named 'cv2'
 
 ```bash
 conda create -n test01 python=3.7 -y
+
+- 가상 환경 활성화 명령어
 conda activate test01
 
 - 필요한 패키지 설치
