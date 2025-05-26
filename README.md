@@ -35,5 +35,8 @@ pip install jupyter
 - Jupyter Notebook 실행
 jupyter notebook
 
+- 가상 환경 종료 명령어
+conda deactivate
+
 - 가상환경을 Jupyter 커널로 등록
 python -m ipykernel install --user --name test01 --display-name "Python (test01)"
