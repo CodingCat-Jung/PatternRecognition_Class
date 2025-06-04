@@ -47,5 +47,7 @@ python -m ipykernel install --user --name test01 --display-name "Python (test01)
 
 ### Anaconda로 Python 3.10 이상 가상환경 만들기 - Python 3.10 이상 환경을 새로 만들어 YOLOv5 설치
 
-conda create -n yolov5-env python=3.10
+```bash
+conda create -n yolov5-env python=3.10 
 conda activate yolov5-env
+```
